@@ -1,14 +1,26 @@
 /* CSS RESET */
     
-*{
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
+/* /CSS RESET */
+
+/* GENERAL */
+
     body {
-        background-color: lightgray;
+        background-color:#f6f8f9;
     }
+
+    .conteiner {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+/* /GENERAL */
+
 /* HEADER */
 
     .background-title {
@@ -28,3 +40,37 @@
         font-size: 40px;
         font-family: 'poppins' , sans-serif;
     }
+
+/* /HEADER */
+
+/* MAIN BUTTONS */
+
+    .buttons-container {
+        margin-top: 70px;
+        background-color: white;
+        height: 60px;
+        padding: 20px 60px ;
+    }
+
+    .button-left {
+        background-color: #48adf1;
+        font-size: 15px;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        height: 30px;
+        width: 100px;    
+    }
+
+    .button-right {
+        background-color: white;
+        font-size: 15px;
+        color:#c5cbd0;
+        border: 1px solid #c5cbd0;
+        border-radius: 7px;
+        height: 30px;
+        width: 100px;
+    }
+
+
+
