@@ -97,7 +97,7 @@
     }
 
     li {
-        margin: 20px 0px;
+        margin: 15px 0px;
     }
 
     .mark {
@@ -131,7 +131,46 @@
 
 /* /LIST ELEMENTS */
 
+/* TYPE ELEMENTS */
 
+    .type-element {
+        margin-left:10px;
+        color: white;
+        font-size: 10px;
+        display: inline-block;
+        height: 22px;
+        width: auto;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        line-height:15%;
+    }
+
+    .e-blu {
+        background-color:#48adf1;
+    }
+
+    .e-violet {
+        background-color: #9c72e4;
+    }
+
+    .e-green {
+        background-color:#64c0a9 ;
+    }
+
+    .e-orange {
+        background-color: #f29e33;
+    }
+
+    .e-pink {
+        background-color:#d763a1 ;
+    }
+
+    .e-yellow {
+        background-color: #b0c925;
+    }
+
+/* /TYPE ELEMENT  */
 
 
 
