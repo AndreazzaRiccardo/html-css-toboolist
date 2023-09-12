@@ -36,6 +36,7 @@
     }
 
     .logo-text {
+        display: inline-block;
         vertical-align: middle;
         font-size: 40px;
         font-family: 'poppins' , sans-serif;
@@ -71,6 +72,66 @@
         height: 30px;
         width: 100px;
     }
+
+/* /MAIN BUTTONS */
+
+/* LIST ELEMENTS */
+
+    .list-items ul {
+        list-style: none;
+        font-family: 'PT Sans' , sans-serif;
+        padding-bottom: 15px;
+    }
+
+    .list-items {
+        background-color: white;
+        margin-top: 5px;
+        list-style: none;
+        padding: 40px;
+        color: #373a41;
+    }
+
+    .down-triangle {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    li {
+        margin: 20px 0px;
+    }
+
+    .mark {
+        height: 20px;
+        width: 20px;
+        margin-right:20px;
+        display: inline-block;
+        text-align: center;
+        line-height: 15px;
+        border-radius: 50%;
+        font-size: 10px;
+    }
+
+    .cross {
+        color: red;
+        border: 2px solid red;
+    }
+
+    .check {
+        color: lightgreen;
+        border: 2px solid lightgreen;
+    }
+
+    li ul {
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: x-large;
+    }
+
+/* /LIST ELEMENTS */
+
+
 
 
 
